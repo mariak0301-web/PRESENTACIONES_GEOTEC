@@ -33,6 +33,7 @@ jobs:
           mkdir -p _site
           cp index.html _site/index.html
           cp GEOTEC_LTDA_original.html _site/GEOTEC_LTDA_original.html
+          cp -r assets _site/assets
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
